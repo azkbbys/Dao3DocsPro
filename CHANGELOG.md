@@ -8,4 +8,4 @@
 
 # 2024.5.2
 
-修改1文档的重复问题，新增1文档，将站点从[原来的](https://newazkbbys.github.io/Dao3DocsPro)换为[现在的](https://azkbbys.github.io/Dao3DocsPro)
+修改1文档的重复问题，新增2文档，将站点从[原来的](https://newazkbbys.github.io/Dao3DocsPro)换为[现在的](https://azkbbys.github.io/Dao3DocsPro)
