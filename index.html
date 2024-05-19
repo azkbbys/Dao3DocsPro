@@ -110,7 +110,7 @@
 					<h3 style="    font-weight: 100;">Oh We Need You~</h3>
 					<p>共同打造完美的岛三文档</p>
 							<div class="beker_tm_button wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInUp; margin-top: 30px;">
-							<a style="    border: 2px solid #ffffff" href="https://www.wenjuan.com/s/UZBZJvaaCO/#" target="_blank">立即投稿-&gt;</a>
+							<a style="    border: 2px solid #ffffff" href="javascript:void(0);" onclick="loadReportJs()" id="tougao">立即投稿-&gt;</a>
 						</div>
 						
 				</div>
@@ -131,6 +131,12 @@
 <script>
 var txcChangeLog = new TxcChangeLog({ id: 639170 });
 txcChangeLog.activateChangeLog();
+function loadReportJs() {
+	document.getElementById('tougao').style.display = 'none';
+    var script = document.createElement('script');
+    script.src = "http://www.wenjuan.com/iframe/65f58842f37064bd29a64c8f/?params=hide_mobile_icon=true";
+    document.body.appendChild(script);
+}
 </script>
 	<script src="./files/jquery1.js"></script>
 	<script src="./files/plugins.js"></script>
